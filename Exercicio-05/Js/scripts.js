@@ -25,4 +25,7 @@ console.log(homemAranha);
 console.log(inimigo);
 
 homemAranha.soltaTeia(inimigo);
+homemAranha.soltaTeia(inimigo);
+homemAranha.soltaTeia(inimigo);
+homemAranha.soltaTeia(inimigo);
 console.log(inimigo);

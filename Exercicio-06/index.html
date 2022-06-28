@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercicio 06</title>
+    <link rel="stylesheet" href="./Css/tela.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Loja de produtos</h1>
+    </header>
+
+    <main>
+      <div class="title">
+        <h2>Produtos</h2>
+        <span>Lista de produtos da minha loja</span>
+      </div>
+
+      <div class="card">
+        <div class="lineInput">
+          <label>Produto</label>
+          <input type="text" id="produto" placeholder="Nome do produto:" />
+        </div>
+
+        <div class="lineInput">
+          <label>Preço</label>
+          <input type="text" id="preco" placeholder="Preco do produto:" />
+        </div>
+        <button onclick="produto.salvar()">Salvar</button>
+        <button onclick="produto.cancelar()">Cancelar</button>
+      </div>
+    </main>
+
+    <div class="content">
+      <table border="1">
+        <thead>
+          <th class="center">ID</th>
+          <th>Produto</th>
+          <th>Valor</th>
+          <th class="center">Ações</th>
+        </thead>
+        <tbody id="tbody">
+            
+        </tbody>
+      </table>
+    </div>
+
+    <script src="./Js/scripts.js"></script>
+  </body>
+</html>
